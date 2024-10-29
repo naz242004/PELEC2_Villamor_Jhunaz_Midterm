@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://i.imgur.com/ruyA8iA.png" type="image/x-icon">
+  <title>MYSELF</title>
+  <link rel="stylesheet" href="midterm_style.css">
+</head>
+<body>
+
+<h1>INTRODUCTION</h1>
+
+<img src="myself.jpg" alt="A picture of Villamor, Jhunaz M." class="profile-image">
+
+<p>Hi! I'm Villamor, Jhunaz M. and I'm from Cebu, Philippines. I am a second-year Information Technology student at CTU University. I like to play online games, watch videos, and my hobby is playing basketball.</p>
+
+<nav>
+  <button onclick="scrollToAboutMe()">About Me</button>
+  <button onclick="scrollToEducation()">Education</button>
+  <button onclick="scrollToSkills()">Skills</button>
+  <button onclick="scrollToContact()">Contact</button>
+</nav>
+
+<script>
+  function scrollToAboutMe() {
+    var aboutMeSection = document.getElementById("about-me");
+    aboutMeSection.scrollIntoView({behavior: 'smooth'});
+  }
+
+  function scrollToEducation() {
+    var educationSection = document.getElementById("education");
+    educationSection.scrollIntoView({behavior: 'smooth'});
+  }
+
+  function scrollToSkills() {
+    var skillsSection = document.getElementById("skills");
+    skillsSection.scrollIntoView({behavior: 'smooth'});
+  }
+
+  function scrollToContact() {
+    var contactSection = document.getElementById("contact");
+    contactSection.scrollIntoView({behavior: 'smooth'});
+  }
+</script>
+
+<section id="about-me">
+  <h2>ABOUT ME</h2>
+  <p>I'm a 20-year-old Filipino who grew up in Inayawan Cebu City. I've always been fascinated by playing basketball, watching anime, and playing online games. My personal value is appreciating the positive things in my life.</p>
+  <p>One of my biggest inspirations is my family. Their hard work has always motivated me to strive for excellence.</p>
+  <p>My current goal is to finish my studies and help my parents' financial needs. I'm working hard to achieve them by studying diligently.</p>
+  <img src="childhood_photo.jpg" alt="Childhood Photo of Villamor" class="section-image">
+  <img src="family_photo.jpg" alt="Family Photo" class="section-image">
+</section>
+
+<section id="education">
+  <h2>MY EDUCATION</h2>
+  <p>I am currently pursuing a Bachelor of Science in Information Technology at Cebu Technological University. I've always been interested in learning about computer programming and software development.</p>
+  <p>Some of my notable achievements include being a Special Science Class student from Grades 1 - 6 and graduating with honors in Senior High School.</p>
+  <img src="elementary_school.jpg" alt="Elementary School of Villamor" class="section-image">
+  <img src="senior_high_school.jpg" alt="Senior High School of Villamor" class="section-image">
+</section>
+
+<section id="skills">
+  <h2>MY SKILLS</h2>
+  <p>I have strong skills in HTML, CSS, and JavaScript. I'm also proficient in using Git and GitHub. I'm currently learning Python and React, and I also practice editing in Capcut.</p>
+  <div class="tech-stack">
+    <img src="html-logo.png" alt="HTML logo">
+    <img src="css-logo.png" alt="CSS logo">
+    <img src="javascript-logo.png" alt="JavaScript logo">
+    <img src="git-logo.png" alt="Git logo">
+    <img src="github-logo.png" alt="GitHub logo">
+    <img src="python-logo.png" alt="Python logo">
+    <img src="capcut-logo.png" alt="Capcut logo">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>CONTACT INFORMATION</h2>
+  <p>Email: <a href="mailto:nazzzzy24@gmail.com">nazzzzy24@gmail.com</a></p>
+  <p>Phone: <a href="tel:+639679224171">+639679224171</a></p>
+
+  <p>Social Media:</p>
+  <ul>
+    <li><a href="https://www.facebook.com/nazkun24" target="_blank">Facebook</a></li>
+    <li><a href="https://www.instagram.com/vlmr.naz/" target="_blank">Instagram</a></li>
+    <li><a href="https://www.tiktok.com/@not.nazzzzz" target="_blank">Tiktok</a></li>
+  </ul>
+</section>
+
+</body>
+</html>
